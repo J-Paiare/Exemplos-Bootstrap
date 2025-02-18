@@ -1,0 +1,25 @@
+.container {
+    background: linear-gradient(145deg, #eaf5ff, #cde6ff);
+    padding: 40px;
+    border-radius: 15px;
+margin-top: 50px;
+    justify-items: center;
+
+}
+
+.input-group-text-custom-icon {
+    color: rgb(0, 29, 134);
+}
+
+.input-group {
+    background-color: rgb(99, 88, 255);
+}
+.btn-primary.custom-button {
+    background: linear-gradient(145deg, #cde6ff, #3684cd);
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+    border: none;
+
+}
+
+
