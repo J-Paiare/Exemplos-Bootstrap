@@ -1,1 +1,18 @@
 /* 2ª Digitação (Aqui) */
+.custom-form {
+    background: linear-gradient(145deg, #2c3e50, #347fc9);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.form-label {
+    color: white;
+}
+btn.btn-primary.custom-button {
+    background: linear-gradient(145deg, #e83737), #e6c41b;
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+    border: none;
+
+}
+
