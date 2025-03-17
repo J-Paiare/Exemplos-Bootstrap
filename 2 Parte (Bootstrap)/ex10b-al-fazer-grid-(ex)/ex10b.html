@@ -12,17 +12,96 @@
             justify-content: center;
             align-items: center;
             margin-top: 20px;
+            flex-direction: column;
+
         }
         .carousel-inner img {
             margin: auto;
+            border-radius: 10px;
+        }
+
+        .alert-info {
+            margin: 10px;
+ 
         }
     </style>
-</head>
+</head> 
 <body>
 
     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
 
-    <!-- 1ª Digitação (Aqui) -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Ofertas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contatos</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+     </nav>
+
+
+<!-- alerta -->
+
+     <div class="alert alert-info alert-dismissible fade show">
+        🎉 Oferta Relâmpago: 20% de desconto em toda a loja! Aproveite!
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+     </div>
+</div>
+
+<!-- carrosel -->
+<div class="container carousel-container">
+    <div id="carouselExample" class="carousel slide w-50" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://placehold.co/600x400" class="d-block w-100" alt="Promoção 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://placehold.co/600x400/000000/FFF" class="d-block w-100" alt="Promoção 2">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://placehold.co/600x400/000000/F00" class="d-block w-100" alt="Promoção 3">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+
+
+<div class="container mt-4">
+    <h2 class="text-center">Desbloqueie seu Desconto!</h2>
+    <div class="progress mt-3">
+        <div id="progress-bar" class="progress-bar bg-success" style="width: 0%;">0%</div>
+    </div>
+    <button id="increase-progress" class="btn btn-primary mt-3 d-block mx-auto">Ganhar Desconto</button>
+</div>
 
 
 
