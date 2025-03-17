@@ -12,4 +12,4 @@ Criar uma página inicial para uma loja virtual utilizando Bootstrap, aplicando 
 1. Adicione uma **navbar responsiva** no topo da página.  
 2. Insira um **carrossel de imagens** no centro da tela.  
 3. Exiba um **alerta dinâmico** no início da página.  
-4. Inclua uma **barra de progresso** que aumenta ao clicar em um botão.  
+4. Inclua uma **barra de progresso** que aumenta ao clicar em um botão.   
