@@ -85,4 +85,101 @@ body {
 }
  
 /* posiciona a caixa com numero no item de sacola de compras */
+#bag-item span {
+    left: 20px;
+}
 
+/* estilos para a marca-logo na barra de navegaçao */
+.navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+/* estilo de hover para links 'sobre' */
+.sobre a:hover{
+    color: #0d0d0d !important; /* importante para sobrepor outros estilos */
+}
+
+/* ajusta estilo quando a alrgura da tela é maior que 760px*/
+@media (min-width: 768PX) {
+    .navbar-brand {
+        text-align: left;
+    }    
+}
+
+/* ajusta o espaçamento entre itens da barra de navegaçao */
+#navbar-itens {
+    justify-content: space-between;
+}
+
+/* ajusta o espaçamento quando a tela é maior que 768px*/
+@media(min-width: 768px) {
+    #navbar-itens {
+        display: flex;
+        min-width: 80%;
+    }
+}
+
+/* estilos para formularios de busca e newsletter */
+#search-form,
+#news-form {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* ajusta a largura da pagina quando a largura é maior que 768px */
+@media(min-width: 768px) {
+    #search-form,
+    #news-form {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+/* estilos para campos de input em formularios */
+#search-form,
+#news-form {
+    border: 2px solid #f2f2f2;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+/* estilos para campos de input quando focados */
+#search-form input,
+#news-form input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+/* estilos para campos de input quando focados */
+#search-form input:focus,
+#news-form input:focus {
+    box-shadow: none;
+}
+
+/* estilos para placeholder em campos de input */
+#search-form input::placeholder,
+#news-form input::placeholder {
+    color: #fff;
+}
+
+/* __________________________________________________________ */
+/* Estilos para a  barra de navegaçao inferior (botton-navbar) */
+
+/* ajusta a posiçao dos itens na barra de navegaçao inferior */
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+/* define cor do texto e links na barra de navegaçao inferior */
+#bottom-navbar-container a {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* define tamanho do icone do botao para mostrar/esconder o menu */
+.navbar-toggler {
+    font-size: 1.5em;
+}
